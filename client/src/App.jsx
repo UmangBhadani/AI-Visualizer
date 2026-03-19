@@ -2,7 +2,7 @@ import { useState } from 'react';
 import DiagramViewer from './components/DiagramViewer';
 import './App.css';
 
-const API_URL = 'http://localhost:3001/api/visualize';
+const API_URL = 'https://ai-visualizer-ivgd.onrender.com/api/visualize';
 
 export default function App() {
   const [prompt, setPrompt] = useState('');
