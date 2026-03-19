@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: 'https://ai-visualizer-pi.vercel.app/', // Update with your frontend URL
+  origin: 'https://ai-visualizer-pi.vercel.app', // Update with your frontend URL
 }));
 app.use(express.json());
 
